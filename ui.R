@@ -39,10 +39,10 @@ shinyUI(
           <div>
             <ul class="nav navbar-nav col-xs-12">
               <li class="col-xs-8 col-md-9">
-                <a href="#">BallR<span class="hidden-xs">: Interactive NBA Shot Charts</span></a>
+                <a href="#">RShiny<span class="hidden-xs">: Interactive NBA Shot Charts</span></a>
               </li>
               <li class="col-xs-4 col-md-3 github-link">
-                <a href="https://github.com/toddwschneider/ballr" target="_blank">
+                <a href="https://github.com/striver6/RShiny" target="_blank">
                   <span class="hidden-xs">Code on </span>GitHub
                 </a>
               </li>
