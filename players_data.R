@@ -14,6 +14,7 @@ request_headers = c(
 request = GET(players_url, add_headers(request_headers))
 
 players_data = fromJSON(content(request, as = "text"))
+
 players = tbl_df(data.frame(players_data$resultSets$rowSet[[1]], stringsAsFactors = FALSE))
 names(players) = tolower(players_data$resultSets$headers[[1]])
 
